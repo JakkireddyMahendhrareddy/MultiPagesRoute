@@ -1,0 +1,50 @@
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    height: 13vh;
+    width: 100vw;
+    box-shadow: salmon;
+}
+  .inner-container{
+    
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inner-container h1{
+    color: rgb(215, 234, 250);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.links{
+    
+    display: flex;
+    flex-direction: row;
+} 
+.links li{
+    list-style-type: none;
+    margin-left: 20px;
+    margin-right: 10px;
+
+    font-size: 20px;
+    font-weight: 700;
+    
+
+    
+        
+        
+        cursor: pointer;
+
+        transition: 0.3s ease, transform 0.2s ease;
+    
+      
+}
+
+.links li:hover {
+    transform: translateY(-2px);
+  }
